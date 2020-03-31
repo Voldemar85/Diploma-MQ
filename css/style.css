@@ -23,23 +23,258 @@ body {
 }
 
 
-@media (min-width: 961px) {
+
+@media (min-width: 961px) and (max-width: 1920px) {
 	.header {
       background-image: url(../images/football_1920.jpg);
     }
+
+    .site_logo {
+	  width: 190px;
+	
 }
+
+    .header_container {
+      margin-top: 290px; 
+  }
+
+
+    .main_heading_up {
+	font-size: 90px;
+	font-family: OpenSans700;
+   
+    margin: 0;
+}
+
+.main_heading_down {
+	font-size: 90px;
+	font-family: OpenSans700;
+
+    margin-top: 0;
+    margin-left: 23%;
+  }
+
+  .appstore_button, .googleplay_button {
+	position: relative;
+	display: flex;
+	
+
+	min-width: 300px;
+	border-radius: 50px;
+	margin-top: 220px;
+	margin-bottom: 110px;
+	margin-right: 25px;
+
+	background-color: #5e42b0;
+	border: none;
+	text-decoration: none;
+   }
+
+   .googleplay_button {
+	  margin-left: 25px;
+    }
+
+    .appstore_button {
+    	margin-right: 25px;
+    }
+
+    .button_text {
+	padding-top: 26px;
+	padding-bottom: 26px;
+
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.button_logo {
+	width: 42px;
+	padding-right: 25px;
+}
+
+.store_button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 300px;
+	width: 120px;
+}
+}
+
+
 
 @media (min-width: 641px) and (max-width: 960px) {
 	.header {
       background-image: url(../images/football_1280.jpg);
     }
+
+    .site_logo {
+      width: 190px;
+	
 }
 
+.header_container {
+      margin-top: 290px; 
+  }
+
+    .main_heading_up {
+	  font-size: 64px;
+	  font-family: OpenSans700;
+   
+      margin: 0;
+    }
+
+    .main_heading_down {
+	    font-size: 64px;
+	    font-family: OpenSans700;
+
+        margin-top: 0;
+        margin-left: 23%;
+   
+    }
+
+    .appstore_button, .googleplay_button {
+	  position: relative;
+	  display: flex;
+	
+
+	  min-width: 300px;
+	  border-radius: 50px;
+	  margin-top: 220px;
+	  margin-bottom: 110px;
+	  
+	  background-color: #5e42b0;
+	  border: none;
+	  text-decoration: none;
+    }
+
+    .googleplay_button {
+	  margin-left: 25px;
+    }
+
+    .appstore_button {
+    	margin-right: 25px;
+    }
+
+    .button_text {
+	padding-top: 26px;
+	padding-bottom: 26px;
+
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.button_logo {
+	width: 42px;
+	padding-right: 25px;
+}
+
+.store_button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 300px;
+	width: 120px;
+}
+}
+
+
+
 @media (max-width: 640px) {
+
 	.header {
       background-image: url(../images/football_767.jpg);
     }
+
+    .site_logo {
+	
+	width: 132px;
+	
 }
+
+.header_container {
+      margin-top: 137px; 
+  }
+
+    .main_heading_up {
+	  font-size: 28px;
+	  font-family: OpenSans700;
+   
+      margin: 0;
+}
+
+    .main_heading_down {
+	  font-size: 28px;
+	  font-family: OpenSans700;
+
+      margin-top: 0;
+      margin-left: 23%;
+   
+    }
+
+    .header_buttons {
+    	flex-wrap: wrap;
+    }
+
+    .appstore_button, .googleplay_button {
+	  position: relative;
+	  display: flex;
+	
+	  min-width: 280px;
+	  border-radius: 50px;
+	  margin-bottom: 110px;
+	  margin-right: 25px;
+	  
+
+	  background-color: #5e42b0;
+	  border: none;
+	  text-decoration: none;
+    }
+
+    .appstore_button {
+    	margin-top: 88px;
+    	margin-bottom: 15px;
+    }
+
+    .button_text {
+	  padding-top: 7px;
+	  padding-bottom: 7px;
+ 
+	  font-size: 8px;
+	  text-transform: uppercase;
+	  color: #fff;
+}
+
+.button_logo {
+	width: 23px;
+	padding-right: 10px;
+}
+
+.store_button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 120px;
+
+	padding-left: 82px;
+	padding-right: 82px;
+		
+}
+
+}
+
+
+.site_logo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	
+	padding-top: 45px;
+	
+	position: relative;
+}
+
 
 
 .header {
@@ -52,6 +287,7 @@ body {
   position: relative;
   padding-left: 10%;
   padding-right: 10%;
+
 }
 
 .header::before {
@@ -67,42 +303,26 @@ body {
 }
 
 
-.site_logo {
-	display: block;
-	width: 190px;
-	margin-right: auto;
-	margin-left: auto;
-	
-	padding-top: 45px;
-	
-	position: relative;
-}
-
-
 
 .header_container {
-	width: 1560px;
+	
 	box-sizing: border-box;
     color: #fff;
 	text-transform: uppercase;
 
 	position: relative;
-	margin-top: 290px;
 }
 
 
-.main_heading_up {
-	font-size: 90px;
-	font-family: OpenSans700;
-   
-   margin: 0;
+
+.header_buttons {
+	display: flex;
+	justify-content: center;
+
 }
 
-.main_heading_down {
-	font-size: 90px;
-	font-family: OpenSans700;
 
-    margin-top: 0;
-    padding-right: 1%;
-    float: right;
-}
+
+
+
+
