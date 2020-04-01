@@ -34,6 +34,12 @@ body {
 	
 }
 
+.second_heading {
+	display: block;
+	margin: 0;
+}
+
+
     .header_container {
       margin-top: 290px; 
   }
@@ -193,6 +199,12 @@ body {
 	
 }
 
+.second_heading {
+	display: block;
+	
+}
+
+
 .header_container {
       margin-top: 137px; 
   }
@@ -289,6 +301,7 @@ body {
   padding-right: 10%;
 
 }
+
 
 .header::before {
 	content: "";
