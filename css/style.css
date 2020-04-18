@@ -20,6 +20,7 @@ html {
 
 body, p, h3, h2, h1 {
 	margin: 0;
+    overflow-x: hidden;
 }
 
 div {
@@ -127,6 +128,13 @@ div {
 	font-size: 18px;
 }
 
+
+
+.cards_first_image_desk {
+	display: block;
+	width: 50%;
+}
+
 }
 
 
@@ -220,6 +228,13 @@ div {
 .heading_count {
 	font-size: 18px;
 }
+
+.cards_first_image_tab {
+	display: block;
+	width: 100%;
+}
+
+
 }
 
 
@@ -327,6 +342,12 @@ div {
 	font-size: 14px;
 }
 
+
+.cards_first_image_phone {
+	display: block;
+	width: 100%;
+}
+
 }
 
 
@@ -395,28 +416,29 @@ div {
 }
 
 
-.athlets_heading {
+.athlets_heading, .players_heading, .cards_heading {
 	color: #e7e7e7;
 	font-family: OpenSans700;
 	text-transform: uppercase;
+	font-size: 80px;
+}
 
+.athlets_heading  {
+	
 	margin-top: 115px;
-	margin-left: 52%;
+	margin-left: 50%;
 	padding-bottom: 50px;
 }
 
 
-
-
 .players_heading {
-	color: #e7e7e7;
-	font-family: OpenSans700;
-	text-transform: uppercase;
-
+	
 	margin-top: 115px;
 	padding-left: 10%;
 	padding-bottom: 50px;
 }
+
+
 
 .athlets_content {
 	position: relative;
@@ -444,7 +466,7 @@ div {
 	flex-wrap: nowrap;
 	align-items: center;
 
-	margin-left: 52%;
+	margin-left: 50%;
 	padding-top: 60px;
 	padding-bottom: 30px;
 }
@@ -454,7 +476,7 @@ div {
 	flex-wrap: nowrap;
 	align-items: center;
     
-	margin-right: 52%;
+	margin-right: 50%;
 	padding-top: 60px;
 	padding-bottom: 30px;
 	padding-left: 10%;
@@ -472,6 +494,11 @@ div {
 	font-family: OpenSans700;
 }
 
+.heading_countplayers {
+	color: #5e42b0;
+	font-family: OpenSans700;
+}
+
 .heading_count::after {
 	display: block;
 	content: "";
@@ -479,15 +506,15 @@ div {
 	border-bottom: 5px solid #5e42b0;
 }
 
-.heading_countpurple::after {
+.heading_countplayers::after {
 	display: block;
 	content: "";
 	width: 20px;
-    border-bottom: 5px solid #efefef;
+    border-bottom: 5px solid #ffffff;
 }
 
 .athlets_text {
-	margin-left: 52%;
+	margin-left: 50%;
 	padding-bottom: 60px;
     width: 50%;
 	font-size: 20px;
@@ -506,6 +533,10 @@ div {
 	color: #fff;
 }
 
+.players_textpurple {
+
+}
+
 .second_row {
 	background-color: #f6f4fa;
 }
@@ -514,3 +545,36 @@ div {
 	background-color: #5e42b0;
 }
 
+.third_row_players {
+	background-color: #0a0e34;
+}
+
+
+
+
+/* CARDS */
+
+
+.cards_first_row, .cards_second_row, .cards_third_row {
+	display: flex; 
+
+}
+
+.cards_first_image_tab, .cards_first_image_phone {
+	display: none;
+}
+
+
+.cards_content_first {
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+    padding-left: 130px;
+    padding-top: 265px;
+    padding-right: 10%;
+	box-sizing: border-box;
+}
+
+.cards_text {
+	font-size: 24px;
+}
